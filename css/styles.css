@@ -104,13 +104,9 @@ table {
 }
 
 .footer-title {
-  font-weight: bolder;
-  font-size: 16px;
-  color: #fff;
-  background: green;
-  padding: 5px 0 5px 8px;
   margin-right: 5px;
-  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 14px;
 }
 
 .rq-banner {
