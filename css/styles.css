@@ -28,6 +28,18 @@ table {
   width: 100%;
 }
 
+.btn {
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.btn-default {
+  background: #fff;
+}
+
 .glyphicon {
   cursor: pointer;
 }
@@ -224,6 +236,7 @@ table {
 
 .toggle-group .toggle-off.btn {
   padding-left: 20px;
+  border: none;
 }
 
 .toggle-group .toggle-on.btn {
