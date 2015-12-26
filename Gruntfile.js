@@ -18,15 +18,28 @@ module.exports = function (grunt) {
         }
       }
     },
+
     watch: {
       scripts: {
         files: ['**/*.scss'],
         tasks: ['sass']
+      }
+    },
+
+    connect: {
+      server: {
+        options: {
+          port: 7070,
+          hostname: 'localhost',
+          keepalive: true
+        }
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.registerTask('dev', ['watch']);
+  grunt.registerTask('serve', ['connect']);
 };
