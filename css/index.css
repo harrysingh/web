@@ -3,19 +3,17 @@
   line-height: 40px;
   margin-top: -9px;
 }
-
-.right-corner-icongroup a:last-child {
-  margin-right: 0;
-}
-
-.btn-floating.select-rule-button,
-.btn-floating.export-rules-button,
-.btn-floating.import-rules-button {
+.right-corner-icongroup .btn-floating.select-rule-button,
+.right-corner-icongroup .btn-floating.export-rules-button,
+.right-corner-icongroup .btn-floating.import-rules-button {
   height: 35px;
   width: 35px;
   margin-top: 3px;
   margin-right: 10px;
   margin-left: 0px;
+}
+.right-corner-icongroup a:last-child {
+  margin-right: 0;
 }
 
 .btn-floating.select-rule-button i,
@@ -127,7 +125,7 @@ input[type="checkbox"].filled-in:not(:checked) + label:after {
 }
 
 .redirect.rule-item-row .rule-type {
-  background-color: #5B9027;
+  background-color: #5b9027;
 }
 
 .cancel.rule-item-row .rule-type {
@@ -135,7 +133,7 @@ input[type="checkbox"].filled-in:not(:checked) + label:after {
 }
 
 .replace.rule-item-row .rule-type {
-  background-color: #2A95E7;
+  background-color: #2Aa5E7;
 }
 
 .headers.rule-item-row .rule-type {

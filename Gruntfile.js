@@ -14,7 +14,9 @@ module.exports = function (grunt) {
           style: 'expanded'
         },
         files: {                         
-          'css/index.css': 'sass/index.scss'
+          'css/index.css': 'sass/index.scss',
+          'css/rule_cards.css': 'sass/rule_cards.scss'
+
         }
       }
     },
