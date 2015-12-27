@@ -40,6 +40,10 @@ table {
   background: #fff;
 }
 
+.row {
+  margin: 0;
+}
+
 .glyphicon {
   cursor: pointer;
 }

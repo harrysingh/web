@@ -15,8 +15,8 @@ module.exports = function (grunt) {
         },
         files: {                         
           'css/index.css': 'sass/index.scss',
-          'css/rule_cards.css': 'sass/rule_cards.scss'
-
+          'css/rule_cards.css': 'sass/rule_cards.scss',
+          'css/editor.css': 'sass/editor.scss'
         }
       }
     },

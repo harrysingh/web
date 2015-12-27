@@ -12,11 +12,12 @@
 
 .description-container {
   padding-bottom: 10px;
-}
-.description-container textarea.rule-description {
-  min-height: 0;
-  padding: 1rem 0 0 0;
-  height: 2rem;
+
+  textarea.rule-description {
+    min-height: 0;
+    padding: 1rem 0 0 0;
+    height: 2rem;
+  }
 }
 
 .title {
@@ -38,5 +39,3 @@
   border-radius: 2px;
   margin: 5px;
 }
-
-/*# sourceMappingURL=editor.css.map */
