@@ -23,6 +23,23 @@
   padding: 5px 0;
   color: #555;
 }
+.title .add-pair {
+  margin-top: -10px;
+  line-height: 20px;
+  padding: 4px;
+  color: #4b4b4b;
+}
+
+.pair-container .dropdown {
+  display: inline-block;
+}
+.pair-container .dropdown button {
+  background: #f5f5f5;
+  color: #4f4f4f;
+}
+.pair-container .source-operator-select {
+  width: 100px;
+}
 
 .pair-container:first-child:last-child .delete-pair {
   display: none;
@@ -37,6 +54,15 @@
   float: right;
   border-radius: 2px;
   margin: 5px;
+}
+
+#redirect-rule-editor .save-rule {
+  background-color: #5b9027;
+  border-color: #5b9027;
+  color: #fff;
+}
+#redirect-rule-editor .content-header {
+  background: #5b9027;
 }
 
 /*# sourceMappingURL=editor.css.map */

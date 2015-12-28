@@ -30,10 +30,11 @@ table {
 
 .dropdown-menu {
   min-width: 100px;
-}
-.dropdown-menu a.dropdown-option {
-  padding: 0.5rem;
-  padding-left: 1rem;
+
+  a.dropdown-option {
+    padding: 0.5rem;
+    padding-left: 1rem;
+  }
 }
 
 .btn {
@@ -139,7 +140,7 @@ i.left {
 }
 
 #forkme_banner {
-  background: url("/resources/images/blacktocat.png") #0090ff no-repeat 95% 50%;
+  background: url('/resources/images/blacktocat.png') #0090ff no-repeat 95% 50%;
   border-radius: 2px;
   padding: 0 50px 0 10px;
   position: fixed;
@@ -147,7 +148,7 @@ i.left {
 }
 
 #chromestore_banner {
-  background: url("/resources/images/chrome_icon.png") #53a93f no-repeat 95% 50%;
+  background: url('/resources/images/chrome_icon.png') #53a93f no-repeat 95% 50%;
   background-size: 30px;
   padding: 10px 50px 10px 10px;
 }
@@ -279,5 +280,3 @@ i.left {
 .status-toggle.headers + .toggle-group .toggle-on.btn {
   background-color: #dd9d12;
 }
-
-/*# sourceMappingURL=styles.css.map */

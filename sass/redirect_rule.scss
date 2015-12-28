@@ -1,0 +1,28 @@
+#redirect-rule-editor {
+  /* Handle width of single pair as in case of more than 1 pairs, scroll becomes visible so width should be less then */
+  .pair-container:first-child:last-child {
+    .source-value-input {
+      width: 610px;
+    }
+
+    .destination-url-input {
+      width: 675px;  
+    }
+  }
+
+  .source-value-input {
+    display: inline-block;
+    width: 580px;
+    margin-bottom: 0;
+  }
+
+  .destination-url-input {
+    width: 655px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+
+  .delete-pair {
+    float: right;
+  }
+}
