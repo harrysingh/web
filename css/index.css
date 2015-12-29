@@ -133,7 +133,7 @@ input[type="checkbox"].filled-in:not(:checked) + label:after {
 }
 
 .replace.rule-item-row .rule-type {
-  background-color: #2Aa5E7;
+  background-color: #2aa5E7;
 }
 
 .headers.rule-item-row .rule-type {

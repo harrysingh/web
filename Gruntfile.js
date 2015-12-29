@@ -18,7 +18,8 @@ module.exports = function (grunt) {
           'css/rule_cards.css': 'sass/rule_cards.scss',
           'css/editor.css': 'sass/editor.scss',
           'css/styles.css': 'sass/styles.scss',
-          'css/redirect_rule.css': 'sass/redirect_rule.scss'
+          'css/redirect_rule.css': 'sass/redirect_rule.scss',
+          'css/cancel_rule.css': 'sass/cancel_rule.scss'
         }
       }
     },
