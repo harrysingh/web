@@ -11,29 +11,19 @@ a:hover {
   text-decoration: none;
 }
 
-select {
-  padding: 6px 12px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1;
-  color: #555;
-  text-align: center;
-  background-color: #eee;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 table {
   width: 100%;
 }
 
 .dropdown-menu {
   min-width: 100px;
+  padding: 0;
 }
 .dropdown-menu a.dropdown-option {
   padding: 0.5rem;
-  padding-left: 1rem;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #333;
 }
 
 .btn {
