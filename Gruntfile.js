@@ -19,7 +19,8 @@ module.exports = function (grunt) {
           'css/editor.css': 'sass/editor.scss',
           'css/styles.css': 'sass/styles.scss',
           'css/redirect_rule.css': 'sass/redirect_rule.scss',
-          'css/cancel_rule.css': 'sass/cancel_rule.scss'
+          'css/cancel_rule.css': 'sass/cancel_rule.scss',
+          'css/replace_rule.css': 'sass/replace_rule.scss'
         }
       }
     },
