@@ -311,9 +311,32 @@ input[type="text"] {
 
 /* Left Navigation Bar */
 .side-nav {
+  a.product-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 45px;
+    background: dimgrey;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 25px;
+    cursor: default;
+  }
+
   .avatar-wrapper {
     padding: 40px;
     background: #ccc;
+    cursor: default;
+  }
+
+  a.product-moto {
+    position: absolute;
+    top: 238px;
+    z-index: 2;
+    color: #333;
+    text-shadow: 0 0 2px #fff;
   }
 
   li {
