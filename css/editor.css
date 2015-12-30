@@ -68,7 +68,7 @@
   background: #5b9027;
 }
 #redirect-rule-editor .pair-container:first-child:last-child .source-value-input {
-  width: 545px;
+  width: 75%;
 }
 #redirect-rule-editor .source-container {
   padding: 5px 0 10px 0;
@@ -78,7 +78,7 @@
 }
 #redirect-rule-editor .source-value-input {
   display: inline-block;
-  width: 525px;
+  width: 72%;
   margin-bottom: 0;
 }
 #redirect-rule-editor .source-operator-select {
@@ -94,7 +94,7 @@
   background: #d32a0e;
 }
 #cancel-rule-editor .pair-container:first-child:last-child .source-value-input {
-  width: 545px;
+  width: 75%;
 }
 #cancel-rule-editor .source-container {
   padding: 5px 0 10px 0;
@@ -104,7 +104,7 @@
 }
 #cancel-rule-editor .source-value-input {
   display: inline-block;
-  width: 525px;
+  width: 72%;
   margin-bottom: 0;
 }
 #cancel-rule-editor .source-operator-select {
@@ -129,7 +129,7 @@
   background: #dd9d12;
 }
 #headers-rule-editor .pair-container:first-child:last-child .source-value-input {
-  width: 545px;
+  width: 75%;
 }
 #headers-rule-editor .source-container {
   padding: 5px 0 10px 0;
@@ -139,7 +139,7 @@
 }
 #headers-rule-editor .source-value-input {
   display: inline-block;
-  width: 525px;
+  width: 72%;
   margin-bottom: 0;
 }
 #headers-rule-editor .source-operator-select {

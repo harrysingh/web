@@ -1,8 +1,8 @@
 #replace-rule-editor .pair-container:first-child:last-child > div {
-  width: 360px;
+  width: 49%;
 }
 #replace-rule-editor .pair-container > div {
-  width: 350px;
+  width: 48%;
 }
 #replace-rule-editor label.active {
   margin-right: 5px;

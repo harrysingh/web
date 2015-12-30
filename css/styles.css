@@ -15,6 +15,24 @@ table {
   width: 100%;
 }
 
+@media only screen and (max-width: 1040px) {
+  .side-nav.fixed {
+    left: -105%;
+  }
+
+  #page {
+    left: 0;
+  }
+
+  #content {
+    width: 800px;
+    margin: auto;
+  }
+
+  #footer {
+    margin: auto;
+  }
+}
 .dropdown-menu {
   min-width: 100px;
   padding: 0;
@@ -81,16 +99,16 @@ input[type="text"].form-control {
 
 .page {
   position: fixed;
-  top: 35px;
-  left: 0;
+  top: 0;
+  left: 240px;
   right: 0;
   bottom: 0;
 }
 
 .content {
-  width: 800px;
+  width: 100%;
+  min-width: 800px;
   height: calc(100% - 35px);
-  margin: auto;
   background: #fff;
   overflow: auto;
 }
@@ -115,8 +133,7 @@ input[type="text"].form-control {
 }
 
 .footer {
-  width: 800px;
-  margin: auto;
+  width: 100%;
   overflow: hidden;
   text-align: center;
   height: 35px;
@@ -283,6 +300,23 @@ input[type="text"].form-control {
 .headers .status-cell .toggle-on.btn,
 .status-toggle.headers + .toggle-group .toggle-on.btn {
   background-color: #dd9d12;
+}
+
+/* Left Navigation Bar */
+.side-nav .avatar-wrapper {
+  padding: 40px;
+  background: #ccc;
+}
+.side-nav li {
+  border-top: 1px solid #eee;
+}
+.side-nav a {
+  height: 34px;
+  line-height: 34px;
+  color: #555555;
+}
+.side-nav i {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -17,6 +17,26 @@ table {
   width: 100%;
 }
 
+@media only screen and (max-width: 1040px) {
+  .side-nav.fixed {
+    left: -105%;
+  }
+
+  #page {
+    left: 0;
+  }
+
+  #content {
+    width: 800px;
+    margin: auto;
+  }
+
+  #footer {
+    margin: auto;
+  }
+
+}
+
 .dropdown-menu {
   min-width: 100px;
   padding: 0;
@@ -86,16 +106,16 @@ input[type="text"] {
 
 .page {
   position: fixed;
-  top: 35px;
-  left: 0;
+  top: 0;
+  left: 240px;
   right: 0;
   bottom: 0;
 }
 
 .content {
-  width: $content-width;
+  width: 100%;
+  min-width: $content-width;
   height: calc(100% - 35px);
-  margin: auto;
   background: #fff;
   overflow: auto;
 }
@@ -120,8 +140,7 @@ input[type="text"] {
 }
 
 .footer {
-  width: 800px;
-  margin: auto;
+  width: 100%;
   overflow: hidden;
   text-align: center;
   height: 35px;
@@ -288,4 +307,26 @@ input[type="text"] {
 .headers .status-cell .toggle-on.btn,
 .status-toggle.headers + .toggle-group .toggle-on.btn {
   background-color: #dd9d12;
+}
+
+/* Left Navigation Bar */
+.side-nav {
+  .avatar-wrapper {
+    padding: 40px;
+    background: #ccc;
+  }
+
+  li {
+    border-top: 1px solid #eee;
+  }
+
+  a {
+    height: 34px;
+    line-height: 34px;
+    color: #555555;
+  }
+
+  i {
+    margin-right: 10px;
+  }
 }

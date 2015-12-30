@@ -15,7 +15,7 @@
 @mixin source-field() {
   .pair-container:first-child:last-child {
     .source-value-input {
-      width: 545px;
+      width: 75%;
     }
   }
 
@@ -29,7 +29,7 @@
 
   .source-value-input {
     display: inline-block;
-    width: 525px;
+    width: 72%;
     margin-bottom: 0;
   }
 

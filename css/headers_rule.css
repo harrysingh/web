@@ -1,5 +1,5 @@
 #headers-rule-editor .pair-container .input-group {
-  width: 250px;
+  width: 35%;
   padding: 0 5px;
 }
 #headers-rule-editor .header-modification-type-container {
@@ -23,7 +23,7 @@
   min-width: 100px;
 }
 #headers-rule-editor .pair-container:only-child .input-group {
-  width: 255px;
+  width: 35%;
 }
 
 /*# sourceMappingURL=headers_rule.css.map */

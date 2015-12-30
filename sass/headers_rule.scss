@@ -1,6 +1,6 @@
 $modification-type-dropdown-width: 85px;
 $header-target-dropdown-width: 100px;
-$input-group-width: 250px;
+$input-group-width: 35%;
 
 @mixin dropdown-container($width) {
   display: inline-block;
@@ -26,10 +26,10 @@ $input-group-width: 250px;
   }
 
   .header-target-container {
-   @include dropdown-container($header-target-dropdown-width);
+    @include dropdown-container($header-target-dropdown-width);
   }
 
   .pair-container:only-child .input-group {
-    width: 255px;
+    width: 35%;
   }
 }

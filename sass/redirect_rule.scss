@@ -1,13 +1,13 @@
 #redirect-rule-editor {
   /* Handle width of single pair as in case of more than 1 pairs, scroll becomes visible so width should be less then */
-  .pair-container:first-child:last-child {
+  .pair-container:only-child {
     .destination-url-input {
-      width: 665px;
+      width: 89%;
     }
   }
 
   .destination-url-input {
-    width: 660px;
+    width: 88%;
     margin-bottom: 0;
   }
 }
