@@ -29,6 +29,14 @@ table {
     margin: auto;
   }
 
+  div.backdrop {
+    left: 0;
+  }
+
+  div.backdrop-message {
+    margin-left: -350px;
+  }
+
   #footer {
     margin: auto;
   }
@@ -115,10 +123,9 @@ input[type="text"].form-control {
 
 .backdrop {
   display: none;
-  background: #ccc;
   opacity: 0.65;
-  top: 3.5rem;
-  bottom: 3.5rem;
+  top: 0;
+  left: 240px;
 }
 
 .backdrop-message {
@@ -126,10 +133,16 @@ input[type="text"].form-control {
   width: 50rem;
   left: 50%;
   position: absolute;
-  margin-left: -25rem;
+  margin-left: -240px;
   top: 40%;
   z-index: 1050;
   text-align: center;
+  color: white;
+  background-color: #222;
+  border-color: #333;
+}
+.backdrop-message p {
+  font-size: 16px;
 }
 
 .footer {
@@ -323,7 +336,7 @@ input[type="text"].form-control {
 }
 .side-nav a.product-moto {
   position: absolute;
-  top: 238px;
+  top: 235px;
   z-index: 2;
   color: #333;
   text-shadow: 0 0 2px #fff;
