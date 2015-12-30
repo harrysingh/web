@@ -15,8 +15,12 @@
 @mixin source-field() {
   .pair-container:first-child:last-child {
     .source-value-input {
-      width: 565px;
+      width: 560px;
     }
+  }
+
+  .source-container {
+    padding: 5px 0 10px 0;
   }
 
   label.active {
@@ -25,17 +29,24 @@
 
   .source-value-input {
     display: inline-block;
-    width: 550px;
+    width: 530px;
     margin-bottom: 0;
   }
 
   .source-operator-select {
     width: 100px;
   }
+}
 
-  .delete-pair {
-    float: right;
+@mixin form-control() {
+  input[type="text"],
+  input[type="url"] {
+    &.form-control {
+      padding: 0;
+      padding-left: 5px;
+    }  
   }
+  
 }
 
 .name-container {
@@ -96,6 +107,10 @@
   float: right;
   border-radius: 2px;
   margin: 5px;
+}
+
+.rule-editor {
+  @include form-control();
 }
 
 #redirect-rule-editor {
